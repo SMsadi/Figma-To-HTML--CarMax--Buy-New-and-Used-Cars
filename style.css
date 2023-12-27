@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,900&family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Inter' !important;
+}
+
+.nav-link{
+color: #0D0A19;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+letter-spacing: -0.1px;
+margin-left: 20px;
+}
+
+.SignUp{
+color: #9A9EA7;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 21px; /* 150% */
+letter-spacing: -0.1px;
+}
+
+.SignUp img{
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    width: 30px;
+    height: 25px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+
+.section1{
+    background-image: url("../Img/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+}
+
+.section1 h1{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 74px; /* 115.625% */
+letter-spacing: -0.305px;
+padding-top: 100px;
+}
+
+.Section1P{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px; /* 135% */
+margin-top: 10px;
+}
+
+.TopFooterSection{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+    border-radius: 8px;
+    max-width: 945px;
+    height: 80px;
+    position: absolute;
+    margin: 0px auto;
+    bottom: 10px;
+    left: 50%;
+    z-index: 99;
+    width: 90%;
+    transform: translateX(-50%);
+}
+
+.TopFooterSection p{
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    letter-spacing: -0.1px;
+    margin-left: 10px;
+}
+
+.form-select{
+color: var(--0-d-0-a-19-primary, #0D0A19);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular / 14px / Bold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 150% */
+letter-spacing: -0.1px;
+border: none !important;
+margin-top: -15px;
+}
+
+.WithoutP{
+    margin-top: 27px;
+}
+
+.HeaderButton{
+    background-color: #7963F0 ;
+    background: #7963F0;
+    border-radius: 10px;
+    border: none;
+    padding: 7px 10px 7px 7px;
+    color: #FFF;
+    font-size: 13px;
+}
+
+.BorderRight{
+    border-right: 1px solid #EDE8E9;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.SomeMargin{
+    margin-top: 20px;
+}
+
+.Section2{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.section3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+
+.section3 h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.section3 h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+    color: #0D0A19;
+}
+
+
+.section3 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    
+}
+
+.button1{
+   background: linear-gradient(0deg, rgba(255,255,255,0.85), rgba(255,255,255,0.1));
+   background: #7963F0;
+   color: #fff;
+   border-color: #7963F0;
+   border: none;
+   border-radius: 8px !important;
+   font-weight: 500 !important;
+   font-family:'Inter';
+   font-style: normal !important;
+   font-size: 14px !important;
+   line-height: 21px !important;
+   text-align: center !important;
+   letter-spacing: 0.1px !important;
+}
+
+.button1:hover{
+    background-color:#7963F5 ;
+    color: #fff;
+    border-color:#575694 ;
+    background-color: #575694;
+}
+
+.button2{
+    background-color: #B0B0B6  ;
+    color: #fff ;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family:'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+
+.button2:hover{
+    background-color: #35353A;
+    color: #FFF;
+}
+
+.card{
+    border: none !important;
+}
+
+.FindcarHeader{
+    width: 98%;
+    height: 60px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.findCar{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+
+.ArrowArea{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #9A9EA7; 
+}
+
+header p span{
+    margin: 0px 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.ArrowArea img{
+    background: #F5F6F7;
+    border-radius: 10px;
+    padding: 10px !important;    
+}
+
+.ArrowArea{
+    margin-top: 20px;
+}
+
+.Sedan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D0A19;
+}
+
+.proBTN{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight:700 !important ;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    background: #fff;
+    color: #7963f0;
+    border-color: #7963f0 ;
+}
+
+.proBTN:hover{
+    color: #F5F6F7;
+    background-color: #262429;
+}
+
+.proBTN1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight:700 !important ;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    background: #fff;
+    color: #2C2635;
+    border-color: #2C2635 ;
+}
+
+.proBTN1:hover{
+    color: #F5F6F7;
+    background-color: #262429;
+}
+
+.product{
+    left: 0;
+    position: relative;
+    transition: 0.5s;
+    min-width: 24%;
+    margin: 0px 20px 50px 0px;
+}
+
+.arrowsign img{
+    background-color: #DCD5E7;
+}
+
+.arrowsign img:hover{
+    background-color: #D9C6F8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.find-section{
+    margin-top: 40px;
+}
+
+.popularP{
+    color: #9A9EA7;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+letter-spacing: -0.1px;
+margin-bottom: 50px;
+}
+
+.btn-find{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+
+
+.active{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.find-nav h3{
+    color: #0D0A19;
+
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 128.571% */
+letter-spacing: -0.1px;
+}
+
+
+.findItem{
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.findItem img{
+    width: 30px;
+    height: 22px;
+}
+
+.FindDes > .subaru{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0D0A19;
+}
+
+
+.Hyundai{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0D0A19;
+}
+
+
+
+
+.Num{
+    color: #9A9EA7;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+letter-spacing: -0.1px;
+margin-top: -17px;
+}
+
+
+.FindDes{
+    margin-left: 15px;
+}
+
+.marginArrowIcon{
+    margin-left: 145px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.FindDes1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Num1{
+    margin-top: 5px;
+}
+
+.popularP1{
+    color: #9A9EA7;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    letter-spacing: -0.1px;
+    margin-bottom: 20px;
+}
+
+
+.some{
+    margin-top: 45px;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.about{
+    color: var(--0-d-0-a-19-primary, #0D0A19);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular / 14px / Bold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 150% */
+letter-spacing: -0.1px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+}
+
+
+
+.footerColor{
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px; /* 235.714% */
+letter-spacing: -0.1px;
+}
+
+
+.Privacy{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--0-d-0-a-19-primary, #0D0A19);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular / 14px / Bold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 150% */
+letter-spacing: -0.1px;
+}
+
+
+.shed{
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular / 14px / Regular */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+letter-spacing: -0.1px;
+}
+
+
+.EnglishUSD{
+    margin-right: 15px;
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular / 14px / Bold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 150% */
+letter-spacing: -0.1px;
+}
+
+
+
+@media all and (max-width:767px){
+    .section h1{
+        font-size: 38px;
+    }
+    .Section1P{
+        font-size: 16px;
+    }
+    .TopFooterSection{
+        height: 100px;
+        margin-top: -50px !important;
+    }
+    .HeaderButton{
+        width: 95%;
+        padding: 17px 0;
+    }
+
+    .Section2{
+        margin-top: 320px;
+    }
+
+    .Section2 img{
+        margin-top: 20px;
+    }
+    .product{
+        min-width: 49%;
+        margin-right: 10px;
+    }
+}
